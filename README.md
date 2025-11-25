@@ -1,4 +1,4 @@
-# Example of GitHub action implementation for a Spring Boot project (Maven)
+# Example of GitHub action implementation for a Spring Boot project (Maven) Test
 
 ![Test, Upload artifact and Deploy to Heroku](https://github.com/miverboven/spring-github-actions-demo/workflows/Test,%20Upload%20artifact%20and%20Deploy%20to%20Heroku/badge.svg)
 
