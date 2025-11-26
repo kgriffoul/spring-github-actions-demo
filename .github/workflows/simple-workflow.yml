@@ -1,2 +1,13 @@
 name: Test de workflow
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+jobs:
+  main_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code source
+        run: echo Récupération du code source
+      - name: Vérification
+        run: echo Vérification terminée
